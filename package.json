@@ -1,0 +1,23 @@
+{
+  "name": "nlp-server",
+  "version": "1.0.0",
+  "description": "A server to handle nlp requests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://dumpstergoon@github.com/dumpstergoon/nlp-server.git"
+  },
+  "author": "Graham Robertson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dumpstergoon/nlp-server/issues"
+  },
+  "homepage": "https://github.com/dumpstergoon/nlp-server#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-wit": "^5.0.0"
+  }
+}

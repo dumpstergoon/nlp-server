@@ -1,0 +1,12 @@
+#!/bin/bash
+
+command=$1
+shift
+
+if [[ $command == "start" ]]; then
+	./bin/start-server $@
+elif [[ $command == "create" ]]; then
+	./bin/create-interpreter $@
+else
+	echo 'Command "$command" not found'
+fi
