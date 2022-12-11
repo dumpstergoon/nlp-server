@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/dumpstergoon/nlp-server#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "node-wit": "^5.0.0"
   }
 }
